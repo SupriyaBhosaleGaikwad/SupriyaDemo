@@ -14,5 +14,15 @@ public class Sample {
 			System.out.println("even");
 		}
 	}
+	
+	/**
+	 * This method is used to print name passed in as param.
+	 * @param name
+	 * @return String
+	 */
+	public static String printMyMethod(String name) {
+		System.out.println("my print method"+name);
+		return "executed";
+	}
 
 }
